@@ -1,0 +1,10 @@
+- Configurando as credenciais
+git config --global user.name "Levy"
+git config --global user.email "85988919231@gmail.com"
+
+- 
+git clone https://github.com/pallomadvm/atividadesite.git
+
+git add . -> Add na caixa
+git commit -m "" -> empacotando para envio.
+git push origin main
