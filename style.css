@@ -1,8 +1,10 @@
 /* variáveis de cores */
 :root {
     --cor-primaria: #0a243e;
+    --cor-destaque: #e74c3c;
     --cor-texto: #333;
-    --cor-clara: #f9f9f9
+    --cor-clara: #f9f9f9;
+    --sombra: 0 3px 10px rgba (0, 0, 0, 0.1)   
 
 }
 /* reset layout navegador */
@@ -91,4 +93,42 @@ z-index: -1;
 .banner .container {
 max-width: 600px;
 text-align: left;
+}
+
+.sobre  {
+    padding: 4rem 0;
+
+}
+
+.sobre-conteúdo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.sobre-conteúdo img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: var(--sombra);
+}
+
+.sobre-texto ul {
+    list-style-type: none;
+    margin-top: 1rem;
+
+}
+
+.sobre-texto li {
+    margin-bottom: 0.5 rem;
+    padding-left: 1.5rem;
+    position:relative;
+
+}
+
+.sobre-texto li::before {
+    content: '•';
+    color: var(--cor-destaque);
+    position:absolute;
+    left: 0;
 }
