@@ -100,6 +100,14 @@ text-align: left;
 
 }
 
+.container h2{
+    text-align: center;
+    font-size: 40px;
+    color: var(--cor-primaria);
+    margin-bottom: 2rem;
+
+}
+
 .sobre-conteúdo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,6 +126,14 @@ text-align: left;
     margin-top: 1rem;
 
 }
+
+.sobre-texto h3 {
+color: var(--cor-primaria);
+font-size: 28px;
+margin-bottom: 1rem;
+
+}
+
 
 .sobre-texto li {
     margin-bottom: 0.5 rem;

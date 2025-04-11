@@ -1,0 +1,26 @@
+CODIGO HTML SEÇÃO 2
+
+<section id="conteúdo" class="conteúdo">
+            <div class="container-conteúdo">
+                <h2>Conteúdo</h2>
+            <div class="html">HTML</div>
+            <p>Estrutura e semântica</p>
+            <div class="css">CSS</div>
+            <p>Estilização e layout</p>
+        </div>
+        </section>
+
+CSS SEÇÃO 2
+
+.conteúdo {
+    display: grid;
+    gap: 10rem;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.html, .css {
+    background-color: rgb(rgb(247, 243, 243));
+    
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.105);
+}
